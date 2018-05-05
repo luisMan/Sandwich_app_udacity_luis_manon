@@ -25,7 +25,7 @@
         <item>Shawarma</item>
         <item>Vada Pav</item>
     </string-array>
-
+    <!--nice work didnt know we can pass an array with json elements on items great feature to know :-) -->
     <string-array name="sandwich_details">
         <item>{\"name\":{\"mainName\":\"Ham and cheese
             sandwich\",\"alsoKnownAs\":[]},\"placeOfOrigin\":\"\",\"description\":\"A ham and cheese

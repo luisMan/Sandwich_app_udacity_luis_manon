@@ -73,4 +73,13 @@ public class Sandwich {
     public void setIngredients(List<String> ingredients) {
         this.ingredients = ingredients;
     }
+
+
+    //lets just create a tostring methos to see if all the data is being instantiates on our object creation
+    public String toString()
+    {return  "Sandwich name : "+getMainName()+
+             "Also known As : "+getAlsoKnownAs()+
+             "Description : "+getDescription()+
+             "Ingredients : "+getIngredients()+
+             "Origen : "+getPlaceOfOrigin();}
 }
