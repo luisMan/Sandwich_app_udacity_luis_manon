@@ -8,6 +8,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
+        multiDexEnabled true
         versionName "1.0"
     }
     buildTypes {
@@ -23,4 +24,18 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    //compile is depecrated so now is just implementation
+    implementation 'com.google.android.gms:play-services-ads:11.6.0'
+    implementation 'com.google.android.gms:play-services:11.6.0'
+    implementation 'com.google.android.gms:play-services-auth:11.6.0'
+    implementation 'pub.devrel:easypermissions:0.3.0'
+    implementation('com.google.api-client:google-api-client-android:1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+
+
+
 }
+
+apply plugin: 'com.google.gms.google-services'

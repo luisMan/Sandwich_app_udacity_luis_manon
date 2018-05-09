@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1045879900767",
+    "firebase_url": "https://sandwichapp-350f4.firebaseio.com",
+    "project_id": "sandwichapp-350f4",
+    "storage_bucket": "sandwichapp-350f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045879900767:android:1f08faa9ca683ac9",
+        "android_client_info": {
+          "package_name": "com.udacity.sandwichclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045879900767-bfhor563v5r7jpjkosv9t46ojis4nr7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDucsfWTFtmwksMoGEoAXk3agilt_hNB6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

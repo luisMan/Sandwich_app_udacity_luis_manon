@@ -3,6 +3,9 @@
     package="com.udacity.sandwichclub">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -19,6 +22,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetailActivity" />
+
+        <!-- our meta data to include the api key for the google map api -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB9jgLJqe0bQys_gUM3as7yy5OjKsRJYU0"/>
     </application>
+
+
+
 
 </manifest>
